@@ -7,16 +7,17 @@ class AppRouter extends RootStackRouter {
   List<AutoRoute> get routes => [
     // Example
     AutoRoute(
-      path: '/example',
+      page: MainRoute.page,
+      path: '/',
       initial: true,
-      page: ExampleRoute.page,
+      children: [
+        AutoRoute(page: HomeRoute.page, path: 'home'),
+        AutoRoute(
+            page: WordRoute.page, 
+            path: 'word',
+        ),
+      ]
     ),
-
-    // 註冊頁面
-    // AutoRoute(
-    //   path: '/sign-up',
-    //   page: SignUpRoute.page,
-    //   children: const [],
-    // ),
+    AutoRoute(page: WordListRoute.page, path: '/word-list'),
   ];
 }

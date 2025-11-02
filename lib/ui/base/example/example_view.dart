@@ -1,7 +1,7 @@
 import 'package:auto_route/annotations.dart';
 import 'package:oumua/core/services/log_service.dart';
-import 'package:oumua/ui/pages/base_view.dart';
-import 'package:oumua/viewmodels/example_view_model.dart';
+import 'package:oumua/ui/base/base_view.dart';
+import 'package:oumua/ui/base/example/example_view_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

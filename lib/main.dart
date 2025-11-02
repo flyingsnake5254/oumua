@@ -5,12 +5,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:global_configuration/global_configuration.dart';
+import 'package:oumua/ui/base/global_view_model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GlobalConfiguration().loadFromAsset("app_settings");
   LogService.init();
   setupLocator();
+  final GlobalViewModel globalViewModel = locator<GlobalViewModel>();
+  globalViewModel.initGlobalViewModel();
   GetIt.instance.registerSingleton<AppRouter>(AppRouter());
   runApp(MyApp());
 }
@@ -25,6 +28,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: _appRouter.config(),
       debugShowCheckedModeBanner: GlobalConfiguration().getValue("environment") == 'development',
+      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.indigo),
     );
   }
 }

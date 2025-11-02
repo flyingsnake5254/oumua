@@ -4,7 +4,7 @@
 3.當布局狀態有變更時，可以呼叫 setBusy() 以更新布局
 */
 import 'package:oumua/locator.dart';
-import 'package:oumua/viewmodels/global_view_model.dart';
+import 'package:oumua/ui/base/global_view_model.dart';
 import 'package:flutter/cupertino.dart';
 
 class BaseViewModel extends ChangeNotifier {
