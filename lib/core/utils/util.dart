@@ -62,8 +62,8 @@ class Util {
   }
 
   static bool isEnglish(String text) {
-    final englishRegex = RegExp(r'^[a-zA-Z]+$');
-    return englishRegex.hasMatch(text);
+    final englishRegex = RegExp(r"^[a-zA-Z\s\/\-\.'’]+$");
+    return englishRegex.hasMatch(text.trim());
   }
 
   static bool isChinese(String text) {
