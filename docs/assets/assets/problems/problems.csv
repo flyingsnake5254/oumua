@@ -1,10 +1,83 @@
-1;Apple;「蘋果」的英文是？;;banana;orange;apple;grape;apple
-2;Apple;請拼出「蘋果」這個英文單字。;;;;;;apple
-3;Apple;assets/problems/images/apple.png;;apple;pear;tomato;cherry;apple
-4;Apple;apple;;applle;appol;apple;applo;apple
-5;Apple;apple;請拼出聽到的單字;;;;;apple
-6;Apple;apple;;assets/problems/images/apple.png;assets/problems/images/oumua1.png;assets/problems/images/oumua2.png;assets/problems/images/oumua3.png;assets/problems/images/apple.png
-7;Apple;My phone is an Apple.;Q：What does “Apple” mean here?;蘋果（水果） ;一家公司;電腦;顏色;一家公司
-1;Accuracy;「準確性」的英文是？;;activity;accuracy;ability;agency;accuracy
-2;Accuracy;請拼出「準確性」這個英文單字。;;;;;;accuracy
-1;Cat;「貓」的英文是？;;dog;cat;bird;fish;cat
+1;a/an;「一個（用於單數可數名詞前）」的英文是？;;the;a/an;some;any;a/an
+2;a/an;請拼出「一個（用於單數可數名詞前）」這個英文單字。;;;;;;a/an
+3;a/an;assets/problems/images/20251103/a1.png;;a/an;the;some;few;a/an
+7;a/an;She has a cat and an apple.;Q：What does “a/an” mean here?;一個;那個;一些;全部;一個
+1;able;「能夠」的英文是？;;able;about;above;across;able
+2;able;請拼出「能夠」這個英文單字。;;;;;;able
+4;able;able;;ablee;able;abell;abel;able
+7;able;He is able to swim fast.;Q：What does “able” mean here?;願意;能夠;正在;必須;能夠
+1;about;「關於」的英文是？;;above;about;across;after;about
+2;about;請拼出「關於」這個英文單字。;;;;;;about
+4;about;about;;abaut;about;abut;abbout;about
+7;about;This book is about animals.;Q：What does “about” mean here?;在上面;關於;靠近;經過;關於
+1;above;「在……上方」的英文是？;;below;between;above;after;above
+2;above;請拼出「在……上方」這個英文單字。;;;;;;above
+3;above;assets/problems/images/20251103/above1.png;;below;behind;above;under;above
+7;above;The sun is above the trees.;Q：What does “above” mean here?;下面;裡面;上方;旁邊;上方
+1;according to;「根據」的英文是？;;beside;according to;after;because of;according to
+2;according to;請拼出「根據」這個英文片語。;;;;;;according to
+7;according to;According to the report, it will rain tomorrow.;Q：What does “according to” mean here?;根據;反對;除了;直到;根據
+1;across;「穿過、橫越」的英文是？;;through;above;across;around;across
+2;across;請拼出「穿過、橫越」這個英文單字。;;;;;;across
+3;across;assets/problems/images/20251103/across1.png;;around;through;across;over;across
+7;across;She walked across the street.;Q：What does “across” mean here?;沿著;穿過;在……裡面;關於;穿過
+1;act;「行動」的英文是？;;add;act;ask;art;act
+2;act;請拼出「行動」這個英文單字。;;;;;;act
+4;act;act;;ac;tac;actt;act;act
+7;act;Don’t just talk—act!;Q：What does “act” mean here?;說話;行動;睡覺;觀看;行動
+1;action;「行動、動作」的英文是？;;actor;active;action;act;action
+2;action;請拼出「行動」這個英文單字。;;;;;;action
+4;action;action;;acton;ation;action;actoin;action
+7;action;He took quick action to help.;Q：What does “action” mean here?;動作;演員;討論;睡眠;動作
+1;actor/actress;「男演員／女演員」的英文是？;;actor/actress;teacher;artist;singer;actor/actress
+3;actor/actress;assets/problems/images/20251103/actor1.png;;actor/actress;teacher;doctor;pilot;actor/actress
+7;actor/actress;She is a famous actress in the movie.;Q：What does “actress” mean here?;女演員;導演;舞者;學生;女演員
+1;add;「增加、加上」的英文是？;;ask;act;add;age;add
+2;add;請拼出「增加」這個英文單字。;;;;;;add
+4;add;add;;aad;addd;ad;add;add
+7;add;Please add some sugar to the coffee.;Q：What does “add” mean here?;減少;增加;移動;吃掉;增加
+1;address;「地址」的英文是？;;address;adult;area;after;address
+2;address;請拼出「地址」這個英文單字。;;;;;;address
+5;address;address;請拼出聽到的單字;;;;;address
+6;address;address;;assets/problems/images/20251104/address1.png;assets/problems/images/20251104/address2.png;assets/problems/images/20251104/address3.png;assets/problems/images/20251104/address4.png;assets/problems/images/20251104/address1.png
+7;address;Please write your address here.;Q：What does “address” mean here?;地址;電話號碼;名字;國家;地址
+1;adult;「成人」的英文是？;;child;adult;actor;artist;adult
+2;adult;請拼出「成人」這個英文單字。;;;;;;adult
+5;adult;adult;請拼出聽到的單字;;;;;adult
+6;adult;adult;;assets/problems/images/20251104/adult.png;assets/problems/images/20251104/adult2.png;assets/problems/images/20251104/adult3.png;assets/problems/images/20251104/adult4.png;assets/problems/images/20251104/adult.png
+7;adult;Only adults can buy this ticket.;Q：What does “adult” mean here?;小孩;成人;學生;老人;成人
+1;afraid;「害怕的」的英文是？;;angry;happy;afraid;alone;afraid
+2;afraid;請拼出「害怕的」這個英文單字。;;;;;;afraid
+5;afraid;afraid;請拼出聽到的單字;;;;;afraid
+6;afraid;afraid;;assets/problems/images/20251104/afraid1.png;assets/problems/images/20251104/afraid2.png;assets/problems/images/20251104/afraid4.png;assets/problems/images/20251104/afraid3.png;assets/problems/images/20251104/afraid1.png
+7;afraid;She is afraid of spiders.;Q：What does “afraid” mean here?;害怕的;開心的;生氣的;驚訝的;害怕的
+1;after;「在……之後」的英文是？;;before;above;after;around;after
+2;after;請拼出「在……之後」這個英文單字。;;;;;;after
+5;after;after;請拼出聽到的單字;;;;;after
+7;after;We will eat lunch after class.;Q：What does “after” mean here?;之前;之後;中間;同時;之後
+1;afternoon;「下午」的英文是？;;afternoon;evening;morning;night;afternoon
+2;afternoon;請拼出「下午」這個英文單字。;;;;;;afternoon
+5;afternoon;afternoon;請拼出聽到的單字;;;;;afternoon
+7;afternoon;Let’s meet in the afternoon.;Q：What does “afternoon” mean here?;早上;下午;晚上;半夜;下午
+1;again;「再一次」的英文是？;;again;against;ago;agree;again
+2;again;請拼出「再一次」這個英文單字。;;;;;;again
+5;again;again;請拼出聽到的單字;;;;;again
+7;again;Please try again.;Q：What does “again” mean here?;第一次;再一次;永不;馬上;再一次
+1;against;「反對、對抗」的英文是？;;across;about;against;age;against
+2;against;請拼出「反對」這個英文單字。;;;;;;against
+5;against;against;請拼出聽到的單字;;;;;against
+6;against;against;;assets/problems/images/20251104/against1.png;assets/problems/images/20251104/against2.png;assets/problems/images/20251104/against3.png;assets/problems/images/20251104/against4.png;assets/problems/images/20251104/against1.png
+7;against;He is against the new rule.;Q：What does “against” mean here?;反對;支持;忽略;感謝;反對
+1;age;「年齡」的英文是？;;ago;age;area;air;age
+2;age;請拼出「年齡」這個英文單字。;;;;;;age
+5;age;age;請拼出聽到的單字;;;;;age
+7;age;What is your age?;Q：What does “age” mean here?;名字;年齡;生日;地點;年齡
+1;ago;「……以前」的英文是？;;after;again;ago;ahead;ago
+2;ago;請拼出「……以前」這個英文單字。;;;;;;ago
+5;ago;ago;請拼出聽到的單字;;;;;ago
+7;ago;I met him two years ago.;Q：What does “ago” mean here?;之後;以前;裡面;上面;以前
+1;agree;「同意」的英文是？;;argue;agree;allow;add;agree
+2;agree;請拼出「同意」這個英文單字。;;;;;;agree
+5;agree;agree;請拼出聽到的單字;;;;;agree
+6;agree;agree;;assets/problems/images/20251104/against2.png;assets/problems/images/20251104/agree1.png;assets/problems/images/20251104/agree2.png;assets/problems/images/20251104/agree3.png;assets/problems/images/20251104/against2.png
+7;agree;I agree with your idea.;Q：What does “agree” mean here?;拒絕;同意;詢問;懷疑;同意
