@@ -60,4 +60,14 @@ class Util {
     String result = "${dateTime.year} / ${dateTime.month} / ${dateTime.day}";
     return result;
   }
+
+  static bool isEnglish(String text) {
+    final englishRegex = RegExp(r'^[a-zA-Z]+$');
+    return englishRegex.hasMatch(text);
+  }
+
+  static bool isChinese(String text) {
+    final chineseRegex = RegExp(r'[\u4e00-\u9fff]');
+    return chineseRegex.hasMatch(text);
+  }
 }

@@ -16,6 +16,7 @@ class MainView extends StatelessWidget {
             routes: [
               HomeRoute(),
               WordRoute(),
+              ChallengeRoute(),
             ],
             bottomNavigationBuilder: (context, tabsRouter) {
               return BottomNavigationBar(
@@ -23,7 +24,8 @@ class MainView extends StatelessWidget {
                   onTap: tabsRouter.setActiveIndex,
                   items: const [
                     BottomNavigationBarItem(icon: Icon(Icons.home_outlined), activeIcon: Icon(Icons.home), label: '首頁'),
-                    BottomNavigationBarItem(icon: Icon(Icons.wordpress_outlined), activeIcon: Icon(Icons.wordpress), label: '單字')
+                    BottomNavigationBarItem(icon: Icon(Icons.wordpress_outlined), activeIcon: Icon(Icons.wordpress), label: '單字'),
+                    BottomNavigationBarItem(icon: Icon(Icons.local_fire_department_outlined), activeIcon: Icon(Icons.local_fire_department), label: '試煉之門')
                   ]
               );
             },

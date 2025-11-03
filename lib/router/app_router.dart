@@ -16,8 +16,10 @@ class AppRouter extends RootStackRouter {
             page: WordRoute.page, 
             path: 'word',
         ),
+        AutoRoute(page: ChallengeRoute.page, path: 'challenge'),
       ]
     ),
     AutoRoute(page: WordListRoute.page, path: '/word-list'),
+    AutoRoute(page: ExamRoute.page, path: '/exam'),
   ];
 }

@@ -38,4 +38,6 @@ flutter:
     - assets/cfg/app_settings.json
     - assets/images/
     - assets/words/
+    - assets/problems/images/
+    - assets/problems/problems.csv
 

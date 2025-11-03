@@ -11,7 +11,13 @@ class HomeView extends StatelessWidget {
     return BaseView(
         builder: (context, model, child) {
           return Scaffold(
-            backgroundColor: Color(0xFFdad7cd),
+            backgroundColor: Color(0xFF14213d),
+            body: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset('assets/problems/images/ao.png')
+              ],
+            ),
           );
         },
         modelProvider: () => HomeViewModel(),

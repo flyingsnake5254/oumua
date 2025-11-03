@@ -40,15 +40,13 @@ class WordListView extends StatelessWidget {
                           padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                           child: FloatingActionButton.extended(
                             icon: Icon(
-                              Icons.add, // 設置 Icon
-                              color: Colors.white, // 設置 Icon 顏色
+                              Icons.tips_and_updates, // 設置 Icon
+                              color: Color(0xffdad7cd), // 設置 Icon 顏色
                               // size: 20,
                             ),
-                            label: Text('顯示文字', style: TextStyle(fontSize: null, fontWeight: null, color: Colors.white),),
-                            backgroundColor: Colors.blueGrey, // 按鈕背景顏色
-                            onPressed: () {
-                              // 點擊事件
-                            },
+                            label: Text('測驗', style: TextStyle(fontSize: 20, fontWeight: null, color: Color(0xffdad7cd)),),
+                            backgroundColor: Color(0xff3a5a40), // 按鈕背景顏色
+                            onPressed: () => model.exam(context),
                           ),
                         )
                     ),
