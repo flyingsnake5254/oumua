@@ -34,6 +34,11 @@ class WordListViewModel extends BaseViewModel {
       }
     },);
     problems.shuffle();
-    context.router.push(ExamRoute(problems: problems));
+    if (problems.length != 0) {
+      for (int i = 0 ; i < problems.length ; i ++) {
+        problems[i].options.shuffle();
+      }
+      context.router.push(ExamRoute(problems: problems));
+    }
   }
 }

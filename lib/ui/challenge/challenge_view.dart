@@ -36,6 +36,9 @@ class ChallengeView extends StatelessWidget {
                               model.globalViewModel.problems.forEach((key, value) {
                                 problems.addAll(value);
                               },);
+                              for (int i = 0 ; i < problems.length ; i ++) {
+                                problems[i].options.shuffle();
+                              }
                               context.router.push(ExamRoute(problems: problems));
                             },
                             icon: ClipRRect(
