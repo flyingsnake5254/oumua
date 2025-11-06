@@ -84973,10 +84973,13 @@ case 4:s=5
 return A.P(o.jj(p.e),$async$mL)
 case 5:return A.K(null,r)}})
 return A.L($async$mL,r)},
-ajq(a){var s,r=A.b([],t.iK)
-this.a.b.a4(0,new A.aja(this,r))
-B.b.Bl(r)
-if(r.length!==0){for(s=0;s<r.length;++s)B.b.Bl(r[s].e)
+ajq(a){var s,r,q=t.iK,p=A.b([],q)
+this.a.b.a4(0,new A.aja(this,p))
+B.b.Bl(p)
+if(p.length!==0){for(s=0;s<p.length;++s)B.b.Bl(p[s].e)
+r=A.b([],q)
+if(p.length>20)for(s=0;s<20;++s)r.push(p[s])
+else B.b.O(r,p)
 A.fY(a,!1).f.mn(A.ayY(r),t.X)}}}
 A.aja.prototype={
 $2(a,b){if(B.b.p(this.a.as,a))B.b.O(this.b,b)},
