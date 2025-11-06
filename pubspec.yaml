@@ -65,5 +65,9 @@ flutter:
     - assets/problems/images/
     - assets/problems/images/20251103/
     - assets/problems/images/20251104/
+    - assets/problems/images/20251105/
+    - assets/problems/images/20251106/
+    - assets/problems/images/20251107/
+    - assets/problems/images/20251108/
     - assets/problems/problems.csv
 

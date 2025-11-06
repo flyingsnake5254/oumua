@@ -38,7 +38,17 @@ class WordListViewModel extends BaseViewModel {
       for (int i = 0 ; i < problems.length ; i ++) {
         problems[i].options.shuffle();
       }
-      context.router.push(ExamRoute(problems: problems));
+
+      List<Problem> finalResult = [];
+      if (problems.length > 20) {
+        for (int i = 0 ; i < 20 ; i ++) {
+          finalResult.add(problems[i]);
+        }
+      }
+      else {
+        finalResult.addAll(problems);
+      }
+      context.router.push(ExamRoute(problems: finalResult));
     }
   }
 }
